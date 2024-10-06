@@ -1,0 +1,78 @@
+html, body { height: 100%; }
+body { 
+  margin:5%; 
+  font-family: Georgia, sans-serif;
+  text-align: center;
+ }
+label {
+  display: block; /* Blocca l'etichetta su una nuova linea */
+  /*margin-bottom: 5px; Margine sotto l'etichetta */
+  font-weight: bold; /* Grassetto per le etichette */
+  margin: 4px 2px;
+}
+.form1 {
+  max-width: 400px; /* Limita la larghezza del modulo */
+  margin: 20px auto; /* Centro il modulo nella pagina */
+  padding: 20px; /* Padding interno */
+  border: 1px solid #ccc; /* Bordo del modulo */
+  border-radius: 5px; /* Angoli arrotondati */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra */
+}
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 120px;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+
+.button1 {background-color: #D7D7D7;color: black;}
+.button2 {background-color: #424242;color: white;} 
